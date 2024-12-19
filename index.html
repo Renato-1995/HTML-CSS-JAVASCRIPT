@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+<title>Trabalho Prático</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/style.css">
+<script src="script.js"></script>
+
+
+</head>
+
+<body onload="valortotal()">
+<header id="cabecalho"> 
+<figure>
+<img id="logo" src= "img/logo-site-automoveis.jpg">
+</figure>
+<h1 id="titulo_principal"> EUROCAR </h1>
+<h2 id="subtitulo"> O site nº1 na venda de automóveis clássicos </h2>
+</header>
+
+<p id="bemvindo"> Bem-vindo ao nosso universo automotivo! Estamos empolgados por estar aqui a explorar tudo o que nosso site de carros tem a oferecer.<br> Sinta-se em casa e aproveite a sua visita!</p>
+<section id="corpo"> 
+    <figure>
+    <img src="img/carro-1.jpg"> 
+    <figcaption> 
+    <h3> Porsche 911 </h3>
+    <p> Este Porsche é ainda considerado nos dias de hoje, um carro bastante rápido, com algumas das comodidades mínimas exigidas para um carro moderno, mas o facto de já ser relativamente antigo constitui este exemplar numa raridade. </p>
+    <p class="preco"><strong> Preço:</strong> 100 000€</p>
+    <p class="estado" id="estado-carro-1">Estado: Disponível</p>
+    <button id="bt1" onclick="Adicionar(0)">Reservar</button>   
+</figcaption>
+    </figure>
+    <br>
+    <figure>
+    <img src="img/carro-2.jpg"> 
+    <figcaption> 
+    <h3> BMW M3 E30 </h3>
+    <p> O BMW M3 E30 é considerado por muitos o melhor BMW alguma vez construído. A história deste carro está totalmente ligada à competição, daí o pedigree tão desportivo deste modelo. A BMW tinha fome de sucessos no desporto automóvel e queria com todas as forças conquistar o título do DTM, campeonato alemão de turismo, onde apenas os construtores alemães podem competir. </p>
+    <p class="preco"><strong> Preço:</strong> 250 000€</p>
+    <p class="estado" id="estado-carro-2">Estado: Disponível</p>
+    <button id="bt2" onclick="Adicionar(1)">Reservar</button>   
+    </figcaption>
+    </figure>    
+
+    <br>
+    <figure>
+        <img src="img/carro-3.jpg"> 
+        <figcaption> 
+        <h3> Ferrari F355 </h3>
+        <p> Actualmente, o Ferrari F355 é um dos Ferrari mais baratos que pode comprar, e como tal, este é o carro que terá maior potencial para valorizar nos próximos anos, sendo por isso um carro que deve considerar caso esteja a pensar fazer um bom investimento.
+        </p>
+        <p class="preco"><strong> Preço:</strong> 235 000€</p>
+        <p class="estado" id="estado-carro-3">Estado: Disponível</p>
+        <button id="bt3" onclick="Adicionar(2)">Reservar</button>   
+        </figcaption>
+        </figure>
+      
+        <br>
+        <figure>
+            <img src="img/carro-4.jpg"> 
+            <figcaption> 
+            <h3> Volvo P1800 </h3>
+            <p> O Volvo P1800 não só é um dos carros mais bonitos de sempre, como também marca um capítulo muito particular na história da Volvo: este foi o primeiro carro com pedigree desportivo da marca sueca a atingir sucesso mundial. </p>
+            <p class="preco"><strong> Preço:</strong> 200 000€</p>
+            <p class="estado" id="estado-carro-4">Estado: Disponível</p>
+            <button id="bt4" onclick="Adicionar(3)">Reservar</button>       
+            </figcaption>
+            </figure>   
+
+            </section>
+
+        <aside id="lateral">
+            <br>
+            <figure>
+                <img src="img/carro-5.jpg"> 
+                <figcaption> 
+                <h3> Mercedes SL </h3>
+                <p> Esta geração, lançada em 1989, tinha motores de 6, 8 e 12 cilindros, elevada qualidade de construção e opções cabrio e coupe. Para os aficionados da Mercedes, qualquer um destes SL R129 serão um investimento seguro. No entanto, para quem analisa o mercado automóvel como um verdadeiro negócio, a geração anterior, a R107, tem um carisma inegável e há quem aponte este como outro dos carros clássicos em que vale a pena investir nos próximos anos, mais ainda do que no R129. </p>
+                <p class="preco"><strong> Preço:</strong> 325 200€</p>
+                <p class="estado" id="estado-carro-5">Estado: Disponível</p>
+                <button id="bt5" onclick="Adicionar(4)">Reservar</button>           
+            </figcaption>
+                </figure>  
+                <br>
+                <figure>
+                    <img src="img/carro-6.jpg"> 
+                    <figcaption> 
+                    <h3> Land Rover Defender</h3>
+                    <p> Por ser tão intemporal e robusto, este carro manteve praticamente o seu preço desde o primeiro dia e, apesar de não ser barato, é um dos clássicos mais procurados no nosso país. </p>
+                    <p class="preco"><strong> Preço:</strong> 324 200€</p>
+                    <p class="estado" id="estado-carro-6">Estado: Disponível</p>
+                    <button id="bt6" onclick="Adicionar(5)">Reservar</button>       
+                    </figcaption>
+                    </figure>   
+
+                    <br>
+                    <figure>
+                        <img src="img/carro-7.jpg"> 
+                        <figcaption> 
+                        <h3> Audi RS2</h3>
+                        <p> A RS2 Avant tinha a particularidade de partilhar vários componentes com os Porsche 911, fruto da parceria entre as duas marcas. O próprio motor era um 5 cilindros de 315 cavalos de potência, desenvolvido também pela Porsche.
+                            Apenas foram produzidos menos de 3000 exemplares desta carrinha, o que a torna num dos mais exclusivos modelos da Audi, e por consequência, um dos carros clássicos que vão valorizar nos próximos tempos. </p>
+                        <p class="preco"><strong> Preço:</strong> 120 200€</p>
+                        <p class="estado" id="estado-carro-7">Estado: Disponível</p>
+                        <button id="bt7" onclick="Adicionar(6)">Reservar</button>       
+                        </figcaption>
+                        </figure>   
+    
+                        <br>
+                    <figure>
+                        <img src="img/carro-8.jpg"> 
+                        <figcaption> 
+                        <h3> Volkswagen Carocha </h3>
+                        <p> Se tivéssemos que escolher apenas um como o carro mais importante de sempre da Volkswagen, certamente esse carro seria o Carocha. O “Beetle” vendeu no total 23,5 milhões de unidades e foi o primeiro carro a ultrapassar os 20 milhões de exemplares produzidos. O Carocha foi produzido durante mais de 60 anos, tendo iniciado produção em 1938 e cessado apenas em 2003.</p>
+                        <p class="preco"><strong> Preço:</strong> 24 500€</p>
+                        <p class="estado" id="estado-carro-8">Estado: Disponível</p>
+                        <button id="bt8" onclick="Adicionar(7)">Reservar</button>       
+                        </figcaption>
+                        </figure>   
+    
+                
+                        <br>
+
+                        </aside>    
+
+<br>
+<br>
+<div id="Reserva">
+    <h2>As suas Reservas</h2>
+    <ul id="lista-reservas">
+        <li>Ainda não efetuou nenhuma reserva</li>
+    </ul>   
+
+</div>
+<br>
+<br>
+
+<div id="valor">
+</div>
+<div id="res">
+
+</div>
+
+<br>
+<br>
+
+<footer>
+    <br>
+    <br>
+    <p id="info"> Para entrar em contato connosco e saber mais informações, <a href="interfaces/Fale connosco.html"> clique aqui </a></p>
+    <p id="rodape"> 08.01.2024 - Renato Azevedo (28549) | DWM - IPCA</p>
+</footer>
+
+</body>
+</html>
